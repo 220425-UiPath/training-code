@@ -10,3 +10,4 @@
 9. Commit this file changes -> `git commit -m "Adding my notes"`
 10. `git push`
 
+I want to write some text in this file using "cat"
