@@ -28,7 +28,7 @@
         - Ex `rw-r--r--` means that user can read and write the file and the group and others can only read the file.
 - `ls -la` - long listed format of the file including hidden files
 
-### Cat
+### [Cat](https://linuxhint.com/cat-command-bash/)
 - Cat mean 'concatenate'
 - Command is used to view, create and append files in linux.
 - `cat Activity.md` - will display the contents of the file
@@ -38,7 +38,7 @@
 - `cat -n Activity.md` - display the line numbers along with the contents of the file
 - `cat ShellScripting.md >> Activity.md` - Append the contents of *ShellScripting.md* to *Activity.md*
 
-### Grep
+### [Grep](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/)
 - It is an essential Linux and Unix command to search text and strings in a given file
 - `grep 'git' filename`  - this will search lines that contains the word *git* in the filename, **case sensitive**.
 - `grep -i 'git' filename`  - this will search lines that contains the word *git* in the filename, **case insensitive**.
@@ -50,3 +50,4 @@
 1. https://bash.cyberciti.biz/guide/Main_Page
 2. https://www.tutorialspoint.com/unix/shell_scripting.htm
 3. If you are video person : https://www.youtube.com/playlist?list=PLS1QulWo1RIYmaxcEqw5JhK3b-6rgdWO_
+4. [cat command]()

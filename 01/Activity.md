@@ -10,4 +10,9 @@
 9. Commit this file changes -> `git commit -m "Adding my notes"`
 10. `git push`
 
-I want to write some text in this file using "cat"
+## Use Shell Commands
+1. Create a repo in the git org - https://github.com/220425-uipath/ as **firstname-lastname**
+2. Make a clone of this repo in your local machine (use command line to create,navigate to folders and clone it).
+3. Create a new folder **TrainingActivities**
+3. create a markdown file using command-line and name it **commandsUsed.md** and add all the commands that you have used so far for this activity step by step.
+4. stage, commit and push your changes.
