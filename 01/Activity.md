@@ -12,7 +12,7 @@
 
 ## Use Shell Commands
 1. Create a repo in the git org - https://github.com/220425-uipath/ as **firstname-lastname**
-2. Make a clone of this repo in your local machine (use command line to create,navigate to folders and clone it).
+2. (Only use command line from this step till end) Make a clone of this repo in your local machine (use command line to create,navigate to folders and clone it).
 3. Create a new folder **TrainingActivities**
 3. create a markdown file using command-line and name it **commandsUsed.md** and add all the commands that you have used so far for this activity step by step.
 4. stage, commit and push your changes.
