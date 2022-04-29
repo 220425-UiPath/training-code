@@ -16,7 +16,8 @@ Module Program 'Module or class holds the program data and procedures
             b=Console.ReadLine()
 
             Dim obj as Mathematics.Calculator = new Calculator()
-            obj.Addition(a,b) 'Calling the Sub, passing the parameters by value
+            Dim result as Integer = obj.Addition(a,b) 'calling the function and storing its output in an integer variable
+            Console.WriteLine($"{a}+{b}={result}")
     End Sub
     
     Sub LearningDatatypes()
