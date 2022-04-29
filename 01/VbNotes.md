@@ -74,6 +74,9 @@
         * Functions return a value
     2. Sub procedures or Subs
         * Subs do not return a value.
+# Arrays
+* They are multivalue fields which are of same type and placed in contigious memory location
+
 # Operators
 * An Operator in VB.Net refers to a symbol that instructs the compiler to perform a specific logical or mathematical manipulation.
 ## Types of Operators:

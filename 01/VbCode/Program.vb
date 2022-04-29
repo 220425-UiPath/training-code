@@ -6,8 +6,40 @@ Module Program 'Module or class holds the program data and procedures
     'Main Procedure is the entry point of the program 
     Sub Main(args As String()) 'procedure -> behavior of the program, args here is command line arguement which we can pass with dotnet run command
             'Console.WriteLine($"First Command line args - {args(0)},{vbCrLf} Second Command line args - {args(1)}")
-            TakeInput()   
+            'TakeInput()   
+            LearnArrays()
     End Sub
+    Sub LearnArrays()
+        'fixed array
+        ' Dim employees(5) as String ' declaration of arrays of size 5
+        ' 'access and add values
+        ' employees(0)="Joey"
+        ' employees(1)="Charlie"
+        ' employees(2)="Mandy"
+        ' employees(3)="Maria"
+        ' employees(4)="Monica"
+
+        'Dynamic array
+        Dim employees() as String = {"Joey", "Charlie", "Mandy", "Maria", "Monica"}
+        ReDim Preserve employees(6)
+        employees(5) = "Rosy"
+
+        'to read a value
+        'Console.WriteLine($"Employee 6 - {employees(5)}")
+
+        ' read all values
+        ' For i As Integer = 0 To employees.Length-2
+        '     Console.WriteLine($"Employee {i+1} - {employees(i)}")   
+        ' Next
+
+        For Each emp As String In employees
+            Console.WriteLine(emp)
+        Next
+        
+        
+
+    End Sub
+    
     Sub TakeInput()
             Dim a,b as Integer 'variable declaration
             Console.Write("Please enter a number ")
