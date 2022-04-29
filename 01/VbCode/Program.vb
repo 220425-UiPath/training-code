@@ -1,5 +1,7 @@
 Imports System 'importing namespace
 
+Namespace VbCode
+
 Module Program 'Module or clas holds the program data and procedures
     Sub Main(args As String()) 'procedure -> behavior of the program
         ' Console.Write("Please enter your name ")
@@ -14,3 +16,4 @@ Module Program 'Module or clas holds the program data and procedures
         Console.WriteLine(CBool(b))
     End Sub
 End Module
+End Namespace

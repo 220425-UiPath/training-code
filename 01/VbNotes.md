@@ -1,8 +1,8 @@
-# VB.net
+# VB.Net
 * VB.NET was developed by Microsoft.
 * It is an object-oriented language.
 * The language is not case sensitive.
-* VB.NET programs run on the .NET framework.
+* VB.NET programs run on the .NET .
 * The language provides windows forms from which you can inherit your own forms.
 * VB.NET allows you to enjoy the drag and drop feature when creating a user interface.
 
@@ -11,7 +11,15 @@
     * We include a namespace into our programming structure. After that, we will be able to access all the methods that have been defined in that namespace without getting an error.
 * A class or module
     * VB.Net is an object-oriented language. 
-    * Hence we must have a class module in every program. 
+        * Object Oriented languages have a class and object
+        * A class is a Blueprint of an object. Object is anything which has real-life entity. Ex: cat
+        * Object has its state(attributes) and behaviors. Ex Cat has fur and cat can movement. State (data/attributes) are nouns and behaviors are verbs.
+        * Pillars of OOP:
+            * Encapsulation : Wrapping up of data and data hiding
+            * Abstraction : Show only essentials features of the program
+            * Inheritance : Its for resuability and creating parent-child releationship between objects of classes.
+            * Polymorphism : multiple behaviors based on the object
+    * Hence we must have a class or module in every program. 
     * It is inside this module that you will be able to define the data and methods to be used by your program.
 * Comments
     * To mark it as a comment, we added a single quote (‘) to the beginning of the sentence. The VB.Net compiler will not process this part. 
