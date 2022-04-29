@@ -1,5 +1,6 @@
 Imports System 'importing namespace
 imports Mathematics
+imports Practise
 
 Namespace VbCode
 Module Program 'Module or class holds the program data and procedures
@@ -7,7 +8,15 @@ Module Program 'Module or class holds the program data and procedures
     Sub Main(args As String()) 'procedure -> behavior of the program, args here is command line arguement which we can pass with dotnet run command
             'Console.WriteLine($"First Command line args - {args(0)},{vbCrLf} Second Command line args - {args(1)}")
             'TakeInput()   
-            LearnArrays()
+            'LearnArrays()
+            ' Dim arr = {1,2,3,4}
+             Dim obj as CodingChallenges = new CodingChallenges()
+            ' Dim result=obj.ReverseArrayAgain(arr)
+            ' For Each r As Integer In result
+            '     Console.WriteLine(r)
+            ' Next
+
+            obj.ReverseString("madam")            
     End Sub
     Sub LearnArrays()
         'fixed array
@@ -19,7 +28,7 @@ Module Program 'Module or class holds the program data and procedures
         ' employees(3)="Maria"
         ' employees(4)="Monica"
 
-        'Dynamic array
+        'Dynamic array 
         Dim employees() as String = {"Joey", "Charlie", "Mandy", "Maria", "Monica"}
         ReDim Preserve employees(6)
         employees(5) = "Rosy"
