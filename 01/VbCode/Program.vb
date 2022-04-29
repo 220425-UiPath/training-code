@@ -1,12 +1,12 @@
 Imports System 'importing namespace
-
+imports Mathematics
 Namespace VbCode
 
 Module Program 'Module or class holds the program data and procedures
     'Main Procedure is the entry point of the program 
  Sub Main(args As String()) 'procedure -> behavior of the program, args here is command line arguement which we can pass with dotnet run command
-        'Console.WriteLine($"First Command line args - {args(0)}, Second Command line args - {args(1)}")
-        Dim obj as Calculator = new Calculator()
+        Console.WriteLine($"First Command line args - {args(0)},{vbCrLf} Second Command line args - {args(1)}")
+        Dim obj as Mathematics.Calculator = new Calculator()
         obj.Addition() 'Calling the procedure
         
     End Sub
