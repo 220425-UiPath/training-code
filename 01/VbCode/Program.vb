@@ -2,8 +2,16 @@ Imports System 'importing namespace
 
 Namespace VbCode
 
-Module Program 'Module or clas holds the program data and procedures
-    Sub Main(args As String()) 'procedure -> behavior of the program
+Module Program 'Module or class holds the program data and procedures
+    'Main Procedure is the entry point of the program 
+ Sub Main(args As String()) 'procedure -> behavior of the program, args here is command line arguement which we can pass with dotnet run command
+        'Console.WriteLine($"First Command line args - {args(0)}, Second Command line args - {args(1)}")
+        Dim obj as Calculator = new Calculator()
+        obj.Addition() 'Calling the procedure
+        
+    End Sub
+
+    Sub LearningDatatypes()
         ' Console.Write("Please enter your name ")
         ' 'Variable
         ' Dim name as String = Console.ReadLine()'takes input from the user
@@ -15,5 +23,6 @@ Module Program 'Module or clas holds the program data and procedures
         'Console.Write(CInt(a)+CInt(b))
         Console.WriteLine(CBool(b))
     End Sub
+    
 End Module
 End Namespace
