@@ -77,6 +77,13 @@
 # Arrays
 * They are multivalue fields which are of same type and placed in contigious memory location
 
+# Conditonal Statements
+- To check for a given value and make decisions accordingly
+- if
+- if-else
+- if-elseif-else
+- select
+
 # Operators
 * An Operator in VB.Net refers to a symbol that instructs the compiler to perform a specific logical or mathematical manipulation.
 ## Types of Operators:

@@ -27,6 +27,21 @@ Namespace Global.Practise
             Next
             Console.Write(output)
         End Sub
+
+        Sub FizzBuzz(input as Integer())
+            For Each i As Integer In input
+                If (i MOD 3 = 0 AND i MOD 5 = 0) Then
+                    Console.WriteLine("FizzBuzz")
+                ElseIf  (i MOD 3 = 0) Then
+                    Console.WriteLine("Fizz")
+                ElseIf (i MOD 5 = 0) Then
+                    Console.WriteLine("Buzz")
+                Else
+                    Console.WriteLine(i)    
+                End If                
+            Next
+            
+        End Sub
          
     End Class
 End Namespace

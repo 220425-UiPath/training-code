@@ -9,14 +9,16 @@ Module Program 'Module or class holds the program data and procedures
             'Console.WriteLine($"First Command line args - {args(0)},{vbCrLf} Second Command line args - {args(1)}")
             'TakeInput()   
             'LearnArrays()
-            ' Dim arr = {1,2,3,4}
+             Dim arr = {12,20,33,4,15}
              Dim obj as CodingChallenges = new CodingChallenges()
             ' Dim result=obj.ReverseArrayAgain(arr)
             ' For Each r As Integer In result
             '     Console.WriteLine(r)
             ' Next
 
-            obj.ReverseString("madam")            
+            'obj.ReverseString("madam")            
+
+            obj.FizzBuzz(arr)
     End Sub
     Sub LearnArrays()
         'fixed array
