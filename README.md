@@ -2,11 +2,12 @@
 ## Timings
 * 10 weeks
 * Timings: 10am to 6pm EST
-* Lunch Break - 2:00 pm EST
+* Lunch Break - 1:00 pm EST
 
 
 ## Projects (graded)
-* P1 (individual) - 2.5 weeks
+* P0 (individual) - 1 week
+* P1 (individual) - 2 weeks
 * P2 (team) - 2 weeks
 * P3 (final project team) in house project, COE team will assign the project, Showcase - 3 weeks
 
@@ -45,4 +46,4 @@
 
 ### References for learning
 * [Unix and Shell](https://www.tutorialspoint.com/unix/unix-getting-started.htm)
-
+* [UiPath Academy RPA Developer](https://academy.uipath.com/learning-plans/rpa-developer-foundation)
