@@ -3506,9 +3506,9 @@
     "restore": {
       "projectUniqueName": "RoSA",
       "projectName": "RoSA",
-      "projectPath": "C:\\Revature\\Batches\\220425-UiPath\\training-code\\2-Intro2RPA\\RoSA\\.local",
+      "projectPath": "C:\\Revature\\Batches\\220425-UiPath\\training-code\\3-DB\\RoSA\\.local",
       "packagesPath": "C:\\Users\\MarielleNolasco\\.nuget\\packages\\",
-      "outputPath": "C:\\Revature\\Batches\\220425-UiPath\\training-code\\2-Intro2RPA\\RoSA\\.local"
+      "outputPath": "C:\\Revature\\Batches\\220425-UiPath\\training-code\\3-DB\\RoSA\\.local"
     },
     "frameworks": {
       "net461": {
